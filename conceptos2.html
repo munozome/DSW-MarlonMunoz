@@ -48,5 +48,101 @@
             </li>
         </ul>
     </div>
+    <br>
+    <br>
+    <br>
+    <h1 class="titulo">Selectores y estilos con CSS 3</h1>
+    <br>
+    <h3 class="caja_text"> 
+        Gracias a los selectores cuando creamos una página web en html y una 
+        hoja de estilos ya sea externa o interna podemos unirlas para que se apliquen los estilos definidos
+        en la hoja seleccionada.
+
+        Tenemos estilos aplicables a tablas, contenedores, bloques, fuente, color, fondos entre otros que podremos ver más adelante.
+        Sobre todo no hay que olvidar que la regla de estilo se conforma del selector y la declaración. Le llamamos declaración al conjuntos
+        de pares propiedad/valor que se incluyen en los estilos.
+
+        Tenemos varios tipos de selectores los cuales trataremos a continuación:
+    </h3>
+    <br>
+   <br>
+   <br>
+    <div class="texto_selector">
+        <h1>Selector Universal: </h1>
+        <h3>Aplica los estilos a todas las etiquetas, normalmente se usan con margin y padding </h3> <br> <br>
+        <h1>Selector Etiqueta: </h1>
+        <h3>Se aplican los estilos a las etiquetas que concidan con el nombre del selector</h3> <br> <br> <br>
+        <h1>Selector Clase: </h1>
+        <h3>Este lleva el nombre de la clase a la cual se quiere aplicar y se le agrega un punto antes del nombre del selector</h3> <br> 
+        <h1>Selector Identificador ID: </h1>
+        <h3>Se aplican a elementos únicos que tienen asignados un id, igualmente el nombre del selector será el nombre del id y se le 
+            agrega al inicio del mismo un #</h3> 
+        <h1>Selector descendiente:</h1>
+        <h3>Son aquellos que se encuentran en las etiquetas de apertura y cierre del "padre"</h3> 
+    </div>
+    <br>
+    <h1>Otros selectores:</h1>
+    <h3>Tenemos los selectores hijos que se representan con un mayor que (>) y cuando tomamos elementos de un mismo padre usamos (+) entre 
+        los nombres de los selectores que serían hermanos, conocidos como selectores adyacentes 
+    </h3>
+    
+    <h1 class="titulo">Estilos </h1>
+    <h3> Como lo mencionabamos anteriormente hay estilos aplicables al color, fuente, bordes, etc, a continuación trabajaremos los más importantes a la hora de trabajar estilos.</h3>
+
+    <table class="estilos_y_atributos" border="5px">
+        <tr>
+            <td>
+                <b>Color</b>
+            </td>
+            <td>
+                <b>Fuentes</b>
+            </td>
+            <td>
+                <b>Texto</b>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Para aplicar colores tenemos 3 formas que son las mas utilizadas. <br>
+                La primera es: <br>
+                <h3> RGB:</h3>
+                Con esta lo que hacemos es asignar el color mencionando que cantidad de rojo (red), verde (green) y azul (blue) tiene el color que deseamos aplicar
+            </td>
+            <td>
+                Las fuentes se asignan gracias a la etiqueta font-family, es gracias a una familia de fuentes que se conforma un tipo de letra determinado, aunque también los distintos valoes que tiene la etiqueta mencionada permite que si para el navegador alguna fuente es desconocida pueda tener otras opciones
+            </td>
+            <td>
+                Gracias a la etiqueta text-align podemos centrar un texto, justificarlo, alinearlo a la izquierda y a la derecha
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <h3>HEX:</h3>
+                El método hexadecimal permite asignar un color a determinado selector con el número que le a sido asignado este color se conforma de un# y 8 números, el primer par es la cantidad del color rojo, el segundo del color verde y el ultimo del color azul
+            </td>
+            <td>
+                A una fuente podemos aplicarle un color determinado y estilo, para el color usamos la etiqueta color y para el estilo la etiqueta font-style en esta última podemos poner en negrita, en italica, obliqua, normal, etc
+            </td>
+            <td>
+                Gracias a la hoja de estilo podemos colocar decoración al texto con text-decoration.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h3>Nombre del color:</h3>
+                A través de internet podemos buscar los nombres de los colores que estan disponibles en htm estos se escriben en inglés, ejemplo: black, white, cyan, blue, etc
+            </td>
+            <td>
+                Podemos ajustar el tamaño de la fuente con la propiedad font-size que nos permitirá cambiar el tamaño que trae por defecto en el html tanto en los textos con formato (p) que son utilizados para los párrafos, asi como los h1, h2, h3 h4, etc
+            </td>
+            <td>
+                Cuando queremos ahorrarnos tiempo a la hora de escribir el código en html, pero queremos mayusculas y minusculas, podemos escribir todo en minúscula y a la hora de aplicar estilos con un text-transform podemos poner todo en mayúscula, minuscula, o mayúscula inicial.
+            </td>
+        </tr>
+    </table>
+    <br>
+    <br>
 </body>
 </html>

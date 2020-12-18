@@ -109,7 +109,48 @@ h3{
     column-count: 3;
 }
 
+.caja_text{
+    font-family: 'Franklin Gothic Book';
+    color: #000000;
+    background-color: #50B748;
+}
+
+.texto_selector{
+    column-count:5;
+    background-color:#005883;
+    color: #ffffff ;
+}
+
 .twitter{
     height: 300px;
     width: 300px;
+}
+
+img{
+    max-width: 400px;
+    max-height: 400px;
+    margin: auto;
+}
+
+.estilos_y_atributos{
+    margin: auto;
+    height: auto;
+    width: 600px;
+    background-color: #b7bbbd;
+    border-color: #F0B429;
+    border-collapse: collapse;
+}
+
+.estilos_y_atributos td b{
+    font-family: 'Franklin Gothic Heavy', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+    color: #005883;
+    font-style: italic;
+    text-decoration:#A54686;
+}
+
+.estilos_y_atributos td{
+    font-family: 'Franklin Gothic Book', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    text-align: left;
 }
