@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.titulo{
+    font-family: 'Franklin Gothic Heavy';
+    color: #A54686;
+    text-align: center;
+}
+
+#pagina{
+    background-color: #000000;
+}
+
+.encabezado{
+    margin: auto;
+    height: auto;
+    width: auto;
+    border-collapse: collapse;
+}
+
+.encabezado td{
+    font-family:'Franklin Gothic Heavy';
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.imagen_encabezado{
+    background-color: #ffffff;
+}
+
+#menu{
+    width: 100opx;
+    font-family:'Franklin Gothic Book';
+    font-size: 22px;
+    margin-left: 250px;
+    margin-right: 100px;
+}
+
+ul{
+    list-style:none;
+}
+
+.páginas li a{
+    background-color: #43c7f4;
+    color: #000000;
+    text-decoration: none;
+    display: block;
+    padding: 10px 40px;
+}
+
+.páginas li a:hover{
+    background-color: #005883;
+    color: #ffffff;
+}
+
+.páginas >li{
+    float: left;
+}
+
+.páginas li ul{
+    display: none;
+    position: absolute;
+}
+
+.páginas li:hover >ul{
+    display: block;
+}
+
+#Autor{
+    font-family: 'Franklin Gothic Book';
+    font-size: 20px;
+}
+
+.imagen_autor{
+    width: 400px;
+    height: 400px;
+}
+
+.tabladeobjetivos{
+    font-family:'Franklin Gothic Book';
+    font-size: 19px;
+    background-color: #F0B429;
+    text-align: left;
+    border-color: #000000;
+    border-collapse: collapse;
+    height: 500px;
+    width: 800px;
+}
+
+h2{
+    color: #005883;
+    font-family: 'Franklin Gothic Heavy';
+    text-align: center;
+}
+
+h3{
+    font-size: 15pt;
+    font-family: 'Franklin Gothic Book';
+    text-align: justify;
+}
+
+.Texto_columna{
+    font-family: 'Franklin Gothic Book';
+    font-size: 12pt;
+    color:#0daadf;
+    background-color: #000000;
+    column-count: 3;
+}
+
+.twitter{
+    height: 300px;
+    width: 300px;
+}
